@@ -20,6 +20,6 @@
 ---
 include:
   - board: nrf52840dk_nrf52840
-    shield: ergodash_left
+    shield: dactyl_left
   - board: nrf52840dk_nrf52840
-    shield: ergodash_right
+    shield: dactyl_right
