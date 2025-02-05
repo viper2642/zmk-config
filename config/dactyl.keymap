@@ -19,21 +19,21 @@
 &kp LSHFT  &kp A   &kp S     &kp D     &kp F    &kp G                           &kp H      &kp J    &kp K      &kp L      &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z   &kp X     &kp C     &kp V    &kp B                           &kp N      &kp M    &kp COMMA  &kp DOT    &kp FSLH  &kp BSLH
                    &kp LBKT  &kp RBKT                                                               &kp PLUS   &kp EQUAL
-                                       &mo LWR  &kp ENTER                       &kp SPACE  &mo RSE
-                                                &kp TAB    &kp HOME   &kp END   &kp DEL
-                                                &kp BSPC   &kp GRAVE  &kp LGUI  &kp LALT
+                                       &kp LGUI &kp ENTER                       &kp SPACE  &kp BSPC
+                                                &kp LALT  &mo LWR   &mo RSE   &kp DEL
+                                                &kp HOME  &kp PG_DN    &kp PG_UP    &kp END
             >;
         };
 
         lower_layer {
             bindings = <
 &kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &kp F6  &kp F7    &kp F8    &kp F9  &kp F10    &kp F11
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans  &trans     &trans
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &kp UP    &trans  &trans     &trans
+&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
 &trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans  &trans     &trans
                  &trans  &trans                                                    &trans    &trans
-                                 &trans  &trans                  &trans  &mo ADJ
-                                         &trans  &trans  &trans  &trans
+                                 &trans  &trans                  &trans  &trans
+                                         &trans  &mo ADJ  &trans  &trans
                                          &trans  &trans  &trans  &trans
             >;
         };
@@ -41,12 +41,12 @@
         raise_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans  &kp K_VOL_UP
-&trans  &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans  &kp K_VOL_DN
-&trans  &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &trans  &trans  &trans  &kp K_MUTE
+&trans  &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &kp K_VOL_UP  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &kp K_VOL_DN  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans   &trans                  &trans  &trans  &kp K_MUTE  &trans  &trans  &trans
                 &trans  &trans                                                   &trans  &trans
-                                &mo ADJ  &trans                  &trans  &trans
-                                         &trans  &trans  &trans  &trans
+                                &trans  &trans                  &trans  &trans
+                                         &trans  &trans  &mo ADJ  &trans
                                          &trans  &trans  &trans  &trans
             >;
         };
