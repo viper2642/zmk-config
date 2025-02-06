@@ -21,7 +21,7 @@
                    &kp LBKT  &kp RBKT                                                               &kp PLUS   &kp EQUAL
                                        &kp LGUI &kp BSPC                       &kp SPACE  &kp ENTER
                                                 &kp LALT  &mo LWR   &mo RSE   &kp DEL
-                                                &kp HOME  &kp PG_DN    &kp PG_UP    &kp END
+                                                &kp HOME  &kp END    &kp PG_UP    &kp PG_DN
             >;
         };
 
